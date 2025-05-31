@@ -361,10 +361,10 @@ const Aileron = ({
         XX
       </text>
 
-      <HydraulicIndicator x={side === 'left' ? 27 : -75} y={96} type={leftHydraulicSystem} />
-      <HydraulicIndicator x={side === 'left' ? 52 : -50} y={96} type={rightHydraulicSystem} />
-      <ServoControlIndicator x={side === 'left' ? 27 : -75} y={96} servoFailed={servcontrol1Fault} />
-      <ServoControlIndicator x={side === 'left' ? 52 : -50} y={96} servoFailed={servcontrol2Fault} />
+      <HydraulicIndicator x={side === 'left' ? 27 : -75} y={68} type={leftHydraulicSystem} />
+      <HydraulicIndicator x={side === 'left' ? 52 : -50} y={68} type={rightHydraulicSystem} />
+      <ServoControlIndicator x={side === 'left' ? 27 : -75} y={68} servoFailed={servcontrol1Fault} />
+      <ServoControlIndicator x={side === 'left' ? 52 : -50} y={68} servoFailed={servcontrol2Fault} />
     </SvgGroup>
   );
 };
